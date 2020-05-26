@@ -1,2 +1,1 @@
-# ML_practice
-ML_homework
+# ML_project & practice
