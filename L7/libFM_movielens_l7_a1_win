@@ -1,0 +1,2 @@
+perl triple_format_to_libfm.pl -in ratings.csv -target 2 -delete_column 3 -separator ","
+libfm.exe -task r -train ratings.csv.libfm -test ratings.csv.libfm -dim '1,1,8' -method sgd -learn_rate 0.01 -regular '0,0,0.01' -init_stdev 0.1 -out out.txt
